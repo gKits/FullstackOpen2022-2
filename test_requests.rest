@@ -1,0 +1,13 @@
+DELETE http://localhost:3001/api/persons/164610185
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Jerry Berry",
+    "number": "069-876543"
+}
+
+###
+GET http://localhost:3001/api/persons
