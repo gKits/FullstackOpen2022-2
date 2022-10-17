@@ -11,3 +11,21 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3001/api/persons
+
+###
+GET https://gkitsphonebookfo.herokuapp.com/api/persons
+
+###
+GET https://gkitsphonebookfo.herokuapp.com/api/persons/1
+
+###
+POST https://gkitsphonebookfo.herokuapp.com/api/persons/
+Content-Type: application/json
+
+{
+    "name": "Berry Jerry",
+    "number": "069-98756432"
+}
+
+###
+DELETE https://gkitsphonebookfo.herokuapp.com/api/persons/363528661
